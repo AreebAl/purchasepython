@@ -9,4 +9,4 @@ app.register_blueprint(purchase_blueprint)  # Assuming you're using Flask bluepr
 
 # Run the Flask app
 if __name__ == '__main__':
-    app.run(debug=True)
+     app.run(host='0.0.0.0', port=5000)
