@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Make port 80 available to the world outside this container
-EXPOSE 8014
+EXPOSE 7008
 
 # Define environment variable
 ENV NAME World
